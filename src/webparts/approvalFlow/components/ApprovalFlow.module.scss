@@ -1,0 +1,73 @@
+//Approval Table
+
+.container {
+  box-shadow: 1px 1px 10px 3px #cdc9c9;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #242424;
+  border-left: 6px solid #0c944c;
+  border-radius: 5px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.viewButton {
+  width: 37px;
+  height: 37px;
+  padding: 6px;
+}
+
+.viewButton:hover {
+  border: 1px solid #cecece !important;
+}
+
+.approveButton {
+  margin-left: 18px;
+  background-color: #c2e2d1;
+  height: 37px;
+  width: 100%;
+  color: #0c944c;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134%;
+}
+
+.approveButton:hover {
+  background-color: #0c944c !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.rejectButton {
+  margin-left: 18px;
+  background-color: #ff000029;
+  height: 37px;
+  width: 100%;
+  color: #f00;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134%;
+}
+
+.rejectButton:hover {
+  background-color: #f00 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.customTable {
+  background: transparent !important;
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "approval-flow-client-side-solution",
+    "id": "bb26dbf8-1102-43b8-9859-163f1621d815",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Approval Flow description"
+      },
+      "longDescription": {
+        "default": "Approval Flow description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "approval-flow Feature",
+        "description": "The feature that activates elements of the approval-flow solution.",
+        "id": "7863c519-d500-41e4-8ee1-753aa48b4725",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/approval-flow.sppkg"
+  }
+}
